@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*шрифт*/
+    background: #f9f3ee; /* Нежный кремово-персиковый фон */
+    color: #5d5d5d;      /* Мягкий темно-серый цвет для обычного текста */
+    margin: 0;
+    padding: 20px;
+
+}
+h1 {
+       color: #b5838d; /* Приглушенный пыльно-розовый */
+    font-weight: 500;
+}
+h2 {
+    color: #b5838d; /* Или #d6a7b1 для более светлого */
+    font-weight: 400;
+    margin-top: 30px;
+    border-bottom: 2px solid #eaddcf; /* Декоративная линия */
+    padding-bottom: 10px;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background: #ffffff; /* Белая подложка для контента */
+    padding: 30px;
+    border-radius: 20px; /* Закругленные углы */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Легкая тень */
+}
+
+.article {
+    background: rgb(189, 189, 189);
+    padding: 15px;
+    margin: 10px 0;
+
+}
+
+button {
+    cursor: pointer;
+}
+button {
+    background-color: #2c3e50; /* Синий фон кнопки */
+    color: white;              /* Белый текст на кнопке */
+    border: none;              /* Убираем стандартную рамку */
+    padding: 5px 15px;         /* Добавляем отступы */
+}
+button:hover {
+    background-color: #34495e; /* Делает синий при наведении на search */
+    cursor: pointer;
+}
