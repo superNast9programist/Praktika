@@ -1,49 +1,109 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*шрифт*/
-    background: #f9f3ee; /* Нежный кремово-персиковый фон */
-    color: #5d5d5d;      /* Мягкий темно-серый цвет для обычного текста */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f3ee;
+    color: #5d5d5d;
     margin: 0;
     padding: 20px;
-
 }
+
 h1 {
-       color: #b5838d; /* Приглушенный пыльно-розовый */
+    color: #b5838d;
     font-weight: 500;
 }
+
 h2 {
-    color: #b5838d; /* Или #d6a7b1 для более светлого */
+    color: #b5838d;
     font-weight: 400;
     margin-top: 30px;
-    border-bottom: 2px solid #eaddcf; /* Декоративная линия */
+    border-bottom: 2px solid #eaddcf;
     padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .container {
     width: 800px;
     margin: auto;
-    background: #ffffff; /* Белая подложка для контента */
+    background: #ffffff;
     padding: 30px;
-    border-radius: 20px; /* Закругленные углы */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Легкая тень */
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
 
 .article {
-    background: rgb(189, 189, 189);
+    background: #f5f5f5;
     padding: 15px;
     margin: 10px 0;
+    border-radius: 10px;
+    position: relative;
+}
 
+.article h3 {
+    margin: 0 0 10px 0;
+}
+
+.article p {
+    margin: 0 0 10px 0;
+    color: #777;
 }
 
 button {
     cursor: pointer;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
 }
-button {
-    background-color: #2c3e50; /* Синий фон кнопки */
-    color: white;              /* Белый текст на кнопке */
-    border: none;              /* Убираем стандартную рамку */
-    padding: 5px 15px;         /* Добавляем отступы */
+
+#searchBtn {
+    background-color: #b5838d;
+    color: white;
+    margin-left: 10px;
 }
-button:hover {
-    background-color: #34495e; /* Делает синий при наведении на search */
-    cursor: pointer;
+
+#searchBtn:hover {
+    background-color: #9e6f7a;
+}
+
+.save-btn {
+    background-color: #6b9c7e;
+    color: white;
+}
+
+.save-btn:hover {
+    background-color: #558b6e;
+}
+
+.delete-btn {
+    background-color: #d9a5a5;
+    color: white;
+    margin-left: 10px;
+}
+
+.delete-btn:hover {
+    background-color: #c48b8b;
+}
+
+.delete-all-btn {
+    background-color: #c48b8b;
+    color: white;
+    font-size: 14px;
+}
+
+.delete-all-btn:hover {
+    background-color: #a86f6f;
+}
+
+#searchInput {
+    padding: 8px 12px;
+    border: 1px solid #eaddcf;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 14px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
 }

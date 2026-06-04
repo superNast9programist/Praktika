@@ -6,6 +6,10 @@
     </head>
     <body>
         <div class="container">
+            <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+    <button id="backBtn" style="background: #b5838d; color: white; border: none; padding: 5px 12px; border-radius: 5px; cursor: pointer;">←</button>
+    <button id="forwardBtn" style="background: #b5838d; color: white; border: none; padding: 5px 12px; border-radius: 5px; cursor: pointer;">→</button>
+</div>
             <h1>News Search</h1>
 
             <input id="searchInput" placeholder="Search news..." />
@@ -14,7 +18,10 @@
             <h2>Results</h2>
             <div id="newsContainer"></div>
 
-            <h2>Saved</h2>
+            <h2>
+                Saved
+                <button id="deleteAllBtn" class="delete-all-btn">Delete All</button>
+            </h2>
             <div id="savedContainer"></div>
         </div>
 
